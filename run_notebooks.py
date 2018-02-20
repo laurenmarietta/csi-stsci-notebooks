@@ -46,7 +46,9 @@ if __name__ == '__main__':
         nb_dir = os.path.abspath(os.path.join('.', os.path.split(nbfn)[0]))
         succeeded = succeeded and execute(nbfn, kernel_name, nb_dir)
 
-    if not succeeded:
-        sys.exit(1)
-    else:
+    if succeeded:
+        print('All the notebooks succeeded!')
         sys.exit(0)
+    else:
+        print('Some of the notebooks failed in execution.  Scroll up to see details.')
+        sys.exit(1)
