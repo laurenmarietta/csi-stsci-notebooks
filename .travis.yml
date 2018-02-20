@@ -1,9 +1,7 @@
 language: python
 python:
   - "3.6"
-# command to install dependencies
 install:
-  - pip install jupyter nbconvert nbformat
-# command to run tests
+  - pip install -r requirements.txt
 script:
   - python run_notebooks.py
