@@ -1,3 +1,4 @@
 astropy
 nbconvert
 nbformat
+jupyter
