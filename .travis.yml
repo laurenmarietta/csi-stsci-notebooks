@@ -6,4 +6,4 @@ install:
   - pip install jupyter nbconvert nbformat
 # command to run tests
 script:
-  - run_notebooks.py
+  - python run_notebooks.py
