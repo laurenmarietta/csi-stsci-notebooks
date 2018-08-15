@@ -2,6 +2,3 @@
 .ipynb_checkpoints/
 *.nbconvert.ipynb
 photutils/dev/*
-photutils/02_photutils_source_detection.ipynb
-photutils/03_photutils_aperture_photometry.ipynb
-photutils/04_photutils_psf_photometry.ipynb
