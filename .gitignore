@@ -1,4 +1,5 @@
 .pyc
 .ipynb_checkpoints/
 *.nbconvert.ipynb
-photutils/dev*
+photutils/dev/
+
