@@ -1,4 +1,7 @@
 astropy
+jupyter
+photutils
+matplotlib
 nbconvert
 nbformat
-jupyter
+numpy
